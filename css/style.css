@@ -9,11 +9,20 @@ body {
 a {
     text-decoration: none;
 }
-
+.rightPane{
+    height: 500px;
+    background-image: url(https://static.businessinsider.com/image/52fbd712eab8ea93615439f1-750.jpg);
+}
 .main {
     height: 100%;
 }
-.social-image{
+.social{
     width: 30px;
     margin: 15px;
+}
+.thumbnail-image{
+    width: 400px;
+    border:5px solid black;
+    display: flex;
+    justify-content:center;
 }
